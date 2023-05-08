@@ -6,7 +6,7 @@ import copy from "rollup-plugin-copy";
 export default {
   input: "index.js",
   output: {
-    file: "dist/bundle.js",
+    file: "docs/bundle.js",
     format: "esm",
   },
   plugins: [
