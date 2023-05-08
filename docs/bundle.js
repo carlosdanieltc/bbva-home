@@ -117,7 +117,7 @@ var Z,F;null==K||K(j,D),(null!==(v=f.litHtmlVersions)&&void 0!==v?v:f.litHtmlVer
         `];constructor(){super(),this.navScroll()}navScroll(){window.onscroll=function(){const t=document.body.firstElementChild.shadowRoot.firstElementChild;document.body.firstElementChild.shadowRoot.firstElementChild.firstElementChild.firstElementChild.firstElementChild.classList.toggle("imageScroll",window.scrollY>0),t.classList.toggle("headerScroll",window.scrollY>0)}}render(){return R`
             <header>
                 <nav>
-                    <a href="#"><img src="../images/logo_bbva_blanco.svg" class="logo-bbva"></a>
+                    <a href="#"><img src="./images/logo_bbva_blanco.svg" class="logo-bbva"></a>
                     <ul>
                         <li>
                             <a href="#" style="color: white">PERSONAS</a>
@@ -130,7 +130,7 @@ var Z,F;null==K||K(j,D),(null!==(v=f.litHtmlVersions)&&void 0!==v?v:f.litHtmlVer
                 <nav>
                     <ul>
                         <li>
-                            <a href="#" class="add-client-content"><img src="../images/addClient.svg" class="add-client-logo"><p>Hazte cliente</p></a>
+                            <a href="#" class="add-client-content"><img src="./images/addClient.svg" class="add-client-logo"><p>Hazte cliente</p></a>
                         </li>
                         <li>
                             <button @click=${this.ChangeColor} type="button" class="green-button-header">Acceso</button>
@@ -261,7 +261,7 @@ var Z,F;null==K||K(j,D),(null!==(v=f.litHtmlVersions)&&void 0!==v?v:f.litHtmlVer
                     </div>
                 </div>
                 <div>
-                    <img class="section-promo-image" src="../images/imagen-fondo-0.jpg">
+                    <img class="section-promo-image" src="./images/imagen-fondo-0.jpg">
                 </div>
             </section>
         `}}customElements.define("principal-section",it);class st extends G{static styles=[n`
@@ -347,7 +347,7 @@ var Z,F;null==K||K(j,D),(null!==(v=f.litHtmlVersions)&&void 0!==v?v:f.litHtmlVer
         `];static properties={items:[]};constructor(){super(),this.items=["Aviso legal","Cookies","Datos Personales","Informes Legales","Servicios de Pago","Tarifas","Tablón de anuncios","Negocio responsable"]}render(){return R`
             <footer>
                 <div>
-                    <img src="../images/logo_bbva_blanco.svg" class="logo-bbva">
+                    <img src="./images/logo_bbva_blanco.svg" class="logo-bbva">
                     <div>
                         <button class="languages-button">Español</button>
                         <div class="social-networks">
@@ -548,7 +548,7 @@ var Z,F;null==K||K(j,D),(null!==(v=f.litHtmlVersions)&&void 0!==v?v:f.litHtmlVer
             .right-button{
                 right: -6px;
             }
-        `];static properties={listItem:[],listPosition:Number,lastMovement:Boolean};constructor(){super(),this.listItem=[{text:"Quiero una cuenta sin comisiones",image:"../images/img-slider/account.svg",rute:"#"},{text:"Quiero cambiarme de banco",image:"../images/img-slider/bank.svg",rute:"#"},{text:"Quiero una cuenta para mi nómina",image:"../images/img-slider/document.svg",rute:"#"},{text:"Quiero calcular mi hipoteca",image:"../images/img-slider/calculator.svg",rute:"../../mortgageCalculator.html"},{text:"Quiero una cuenta joven con acceso a formación",image:"../images/img-slider/bonusaccount.svg",rute:"#"},{text:"Quiero una cuenta para mi empresa",image:"../images/img-slider/team.svg",rute:"#"},{text:"Necesito un préstamo rápido y online",image:"../images/img-slider/loaneuro.svg",rute:"#"},{text:"Busco una tarjeta de débito o crédito",image:"../images/img-slider/creditcard.svg",rute:"#"},{text:"Estoy buscando casa",image:"../images/img-slider/home.svg",rute:"#"},{text:"Busco productos de ahorro e inversión",image:"../images/img-slider/savings.svg",rute:"#"},{text:"Quiero un seguro",image:"../images/img-slider/insurance2.svg",rute:"#"}],this.listPosition=0,this.lastMovement=!0}render(){return R`
+        `];static properties={listItem:[],listPosition:Number,lastMovement:Boolean};constructor(){super(),this.listItem=[{text:"Quiero una cuenta sin comisiones",image:"./images/img-slider/account.svg",rute:"#"},{text:"Quiero cambiarme de banco",image:"./images/img-slider/bank.svg",rute:"#"},{text:"Quiero una cuenta para mi nómina",image:"./images/img-slider/document.svg",rute:"#"},{text:"Quiero calcular mi hipoteca",image:"./images/img-slider/calculator.svg",rute:"../../mortgageCalculator.html"},{text:"Quiero una cuenta joven con acceso a formación",image:"./images/img-slider/bonusaccount.svg",rute:"#"},{text:"Quiero una cuenta para mi empresa",image:"./images/img-slider/team.svg",rute:"#"},{text:"Necesito un préstamo rápido y online",image:"./images/img-slider/loaneuro.svg",rute:"#"},{text:"Busco una tarjeta de débito o crédito",image:"./images/img-slider/creditcard.svg",rute:"#"},{text:"Estoy buscando casa",image:"./images/img-slider/home.svg",rute:"#"},{text:"Busco productos de ahorro e inversión",image:"./images/img-slider/savings.svg",rute:"#"},{text:"Quiero un seguro",image:"./images/img-slider/insurance2.svg",rute:"#"}],this.listPosition=0,this.lastMovement=!0}render(){return R`
             <section>
                 <div>
                     <button  @click=${this.moveLeft} type="button" class="left-button"><</button>
