@@ -11,14 +11,14 @@ class HeaderBBVA extends LitElement {
                 font-family: BentonSansBBVA-Medium,Helvetica,Arial,sans-serif;         
                 width: 100%;
                 height: 87px;
-                transition-duration: 0.3s; 
+                transition-duration: 0.5s; 
                 z-index: 100;
             }
 
             .headerScroll{
                 width: 100%;
                 height: 56px;
-                transition-duration: 0.3s; 
+                transition-duration: 0.5s; 
                 position: fixed;
             }
 
@@ -26,12 +26,12 @@ class HeaderBBVA extends LitElement {
                 width: 9rem;
                 height: 5rem;
                 margin: 0 1rem 0 1rem;
-                transition-duration: 0.3s;
+                transition-duration: 0.5s;
             }
 
             .imageScroll{
                 width:4rem;
-                transition-duration: 0.3s;
+                transition-duration: 0.5s;
             }
             
             nav{
